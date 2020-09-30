@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Practica Frontend JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violeta-dev/PracticaFrontend.git"
+  },
+  "author": "Violeta Canela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/violeta-dev/PracticaFrontend/issues"
+  },
+  "homepage": "https://github.com/violeta-dev/PracticaFrontend#readme"
+}

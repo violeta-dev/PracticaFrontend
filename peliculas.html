@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas -API</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/peliculas.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <p class="inicio">Peliculas</p>
+        <button id="b_load_peliculas" type="button">Cargar</button>
+        <div class="peliculas nodisplay">
+            <table class="table_peliculas">
+                <caption>Lista Peliculas</caption>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th class="descripcion nodisplay">Descripcion</th>
+                    </tr>
+                </thead>
+                <tbody> </tbody>
+            </table>
+            <div class="botones">
+                <div id="prev" class="boton ocultar"><<</div>
+                <div id="next" class="boton">>></div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

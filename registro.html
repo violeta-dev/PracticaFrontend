@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Curso</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/registro.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <p class="inicio">Registro</p>
+        <form id="f_register" action="">
+            <div>
+                <input type="text" id="i_usuario" placeholder="Usuario">
+            </div> 
+            <div>  
+                <input type="password" id="i_passwd" placeholder="Contraseña">
+            </div>
+            <div>  
+                <input type="password" id="i_confpasswd" placeholder="Confirmar Contraseña">
+                <p class= "errata nodisplay"></p>
+            </div>
+            <div>
+                <input type="text" id="i_nombre" placeholder="Nombre">
+            </div> 
+            <div>
+                <input type="text" id="i_apellido" placeholder="Apellido">
+            </div> 
+            <div>
+                <input type="text" id="i_mobile" placeholder="movil" required minlength="9" maxlength="12">                
+            </div>
+            <div>
+                <input type="email" id="i_correo" placeholder="Correo">
+            </div>  
+            <div>
+                <input type="text" id="i_apikey" placeholder="API_KEY" >
+            </div> 
+            <div>
+                <input type="text" id="i_comentarios" placeholder="Comentarios">
+            </div> 
+            <div>
+                <input type="radio" id="hombre" name="genero"  value="Hombre" required>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="genero" value="Mujer">
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="otros" name="genero" value="Otros">    
+                <label for="otros">Otros</label>
+                <p class= "errata nodisplay"></p>
+            </div>
+            <div>
+                <label for="nacionalidad">Nacionalidad</label>
+                <select id="nacionalidad" required>
+                    <option value=""></option>
+                </select> 
+                <p class= "errata nodisplay"></p>               
+            </div>
+            <div class="nodisplay">
+                <label for="provincia">Provincia</label>
+                <select id="provincia" required>
+                    <option value=""></option>
+                </select> 
+                <p class= "errata nodisplay"></p> 
+            </div>
+            
+            <div>
+                <input type="checkbox" id="condiciones" required>
+                <label for="condiciones">Acepto las condiciones de esta Web</label>
+                <p class= "errata nodisplay"></p>
+            </div>
+            <div>
+                <p class= "error"></p>
+            </div>
+            <div>
+                <button type="button" id="b_registrar">Registrar</button>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
